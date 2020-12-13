@@ -7,9 +7,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <Nav />
-      <Projects />
-      <Home />
+      <Nav />    
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/projects" component={Projects} exact />
