@@ -1,29 +1,31 @@
 import React from 'react';
-
-
+import fitnessimg from '../../images/commit to be fit.png'
+import weatherimg from "../../images/weather app.png"
+import bankingimg from "../../images/banking app.png"
+import './projects.css';
 
 function Projects() {
     const portfolio = [
         {
             deployedLink: "https://paulmorales7.github.io/Commit-To-Be-Fit/",
             title: "BMI and Recipe Generator App",
-            src: "../../images/commit to be fit.png",
+            src: fitnessimg,
             alt: "Project fitness app",
-            className: "fitness"
+            repo: "https://github.com/paulmorales7/Commit-To-Be-Fit.git"
         },
         {
             deployedLink: "https://paulmorales7.github.io/week-six-hw/",
             title: "Weather App",
-            src: "../../images/weather app.png",
+            src: weatherimg,
             alt: "Project weather app",
-            className: "weather"
+            repo: "https://github.com/paulmorales7/week-six-hw.git"
         },
         {
             deployedLink: "https://banking-app1.herokuapp.com/",
             title: "Banking App",
-            src: "../../images/banking app.png",
+            src: bankingimg,
             alt: "Project banking app",
-            className: "banking"
+            repo: "https://github.com/paulmorales7/banking-system.git"
         }
     ];
     return (
@@ -39,6 +41,15 @@ function Projects() {
                     <div className="card-container">
                         <div className="img-container">
                             <img src={eL.src} alt={eL.alt} />
+                        </div>
+                        <div className="card-title">
+                            <h4>{eL.title}</h4>
+                        </div>
+                        <div className="button">
+                            <button>
+                                <a src={eL.repo}>Repo</a>
+                            </button>
+                            <button><a src={eL.deployedLink}>App</a></button>
                         </div>
                     </div>
                 )
