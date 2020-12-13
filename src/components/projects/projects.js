@@ -10,6 +10,7 @@ function Projects() {
             deployedLink: "https://paulmorales7.github.io/Commit-To-Be-Fit/",
             title: "BMI and Recipe Generator App",
             src: fitnessimg,
+            className: "fitness",
             alt: "Project fitness app",
             repo: "https://github.com/paulmorales7/Commit-To-Be-Fit.git"
         },
@@ -17,6 +18,7 @@ function Projects() {
             deployedLink: "https://paulmorales7.github.io/week-six-hw/",
             title: "Weather App",
             src: weatherimg,
+            className: "weather",
             alt: "Project weather app",
             repo: "https://github.com/paulmorales7/week-six-hw.git"
         },
@@ -24,6 +26,7 @@ function Projects() {
             deployedLink: "https://banking-app1.herokuapp.com/",
             title: "Banking App",
             src: bankingimg,
+            className: "banking",
             alt: "Project banking app",
             repo: "https://github.com/paulmorales7/banking-system.git"
         }
@@ -40,7 +43,7 @@ function Projects() {
                 return (
                     <div className="card-container">
                         <div className="img-container">
-                            <img src={eL.src} alt={eL.alt} />
+                            <img className={eL.className} src={eL.src} alt={eL.alt} />
                         </div>
                         <div className="card-title">
                             <h4>{eL.title}</h4>
