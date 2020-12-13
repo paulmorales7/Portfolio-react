@@ -36,15 +36,11 @@ function Projects() {
 
             {portfolio.map((eL) => {
                 return (
-                    <>
-                        <a href={eL.deployedLink}>
-                            <img className={eL.className} src={eL.src} alt={eL.alt} />
-                        </a>
-                        <div>
-                            <p >{eL.title}</p>
-                            <p>Repo: <a href={eL.deployedLink}>{eL.deployedLink}</a></p>
+                    <div className="card-container">
+                        <div className="img-container">
+                            <img src={eL.src} alt={eL.alt} />
                         </div>
-                    </>
+                    </div>
                 )
             })}
         </div>
@@ -52,3 +48,15 @@ function Projects() {
 }
 
 export default Projects;
+
+
+
+ // <>
+                    //     <a href={eL.deployedLink}>
+                    //         <img className={eL.className} src={eL.src} alt={eL.alt} />
+                    //     </a>
+                    //     <div>
+                    //         <p >{eL.title}</p>
+                    //         <p>Repo: <a href={eL.deployedLink}>{eL.deployedLink}</a></p>
+                    //     </div>
+                    // </>
