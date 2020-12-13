@@ -13,9 +13,17 @@ height: 200px;
 width: auto;
 }
 
+.button{
+border-radius: 50%;
+}
+
 button{
     width: 50px;
     text-align: center;
     margin: 5px;
-   color: black;
+ 
+}
+
+h4{
+    text-align: center;
 }
