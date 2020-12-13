@@ -33,12 +33,6 @@ function Projects() {
     ];
     return (
         <div>
-            {/* <div className="header">
-                <h1>PORTFOLIO</h1>
-                <h1 className="name">PAUL MORALES</h1>
-                <p className="infoHeader">CLICK ON ANY PICTURE TO USE</p>
-            </div> */}
-
             {portfolio.map((eL) => {
                 return (
                     <div className="card-container">
@@ -65,12 +59,3 @@ export default Projects;
 
 
 
- // <>
-                    //     <a href={eL.deployedLink}>
-                    //         <img className={eL.className} src={eL.src} alt={eL.alt} />
-                    //     </a>
-                    //     <div>
-                    //         <p >{eL.title}</p>
-                    //         <p>Repo: <a href={eL.deployedLink}>{eL.deployedLink}</a></p>
-                    //     </div>
-                    // </>
