@@ -1,12 +1,10 @@
 .buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
 }
 
 a {
     text-decoration: none;
-    margin-right: 100px;
+    margin-right: 40px;
     color: black;
+    
 }
