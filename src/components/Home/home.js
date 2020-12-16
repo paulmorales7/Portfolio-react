@@ -22,7 +22,7 @@ function home() {
                             <a href="http://google.com" target="_blank">
                                 <i className="fab fa-linkedin" aria-hidden="true" />
                             </a>
-                            <a href="http://google.com" target="_blank">
+                            <a href="https://github.com/paulmorales7" target="_blank">
                                 <i className="fab fa-github" aria-hidden="true" />
                             </a>
                             <a href="http://google.com" target="_blank">
