@@ -1,0 +1,35 @@
+.headshot{
+height: 200px;
+border-radius: 100%;
+}
+
+.banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr{
+    border-top: 5px solid white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1px;
+}
+
+.fab fa-linkedin {
+    color: white;
+    
+}

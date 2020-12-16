@@ -1,8 +1,9 @@
 body{
- /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-
+background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
 background-color: #0F2027;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .card-container{
 width: 200px;
