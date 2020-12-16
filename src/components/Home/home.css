@@ -29,7 +29,15 @@ border-radius: 100%;
     padding: 1px;
 }
 
-.fab fa-linkedin {
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+}
+
+.linkedin, .github{
     color: white;
-    
 }
