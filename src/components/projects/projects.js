@@ -44,9 +44,9 @@ function Projects() {
                         </div>
                         <div className="button">
                             <button>
-                                <a src={eL.repo}>Repo</a>
+                                <a href={eL.repo}>Repo</a>
                             </button>
-                            <button><a src={eL.deployedLink}>App</a></button>
+                            <button><a href={eL.deployedLink}>App</a></button>
                         </div>
                     </div>
                 )
