@@ -2,10 +2,19 @@ import React from 'react';
 import fitnessimg from '../../images/commit to be fit.png'
 import weatherimg from "../../images/weather app.png"
 import bankingimg from "../../images/banking app.png"
+import trendrimg from "../../images/trendr.png"
 import './projects.css';
 
 function Projects() {
     const portfolio = [
+        {
+            deployedLink: "",
+            title: "Trendr",
+            src: trendrimg,
+            className: "trendr",
+            alt: "Trends app",
+            repo: "https://github.com/paulmorales7/Trendr.git"
+        },
         {
             deployedLink: "https://paulmorales7.github.io/Commit-To-Be-Fit/",
             title: "BMI and Recipe Generator App",
@@ -30,6 +39,7 @@ function Projects() {
             alt: "Project banking app",
             repo: "https://github.com/paulmorales7/banking-system.git"
         }
+       
     ];
     return (
         <div>
