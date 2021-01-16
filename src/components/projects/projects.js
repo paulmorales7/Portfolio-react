@@ -8,7 +8,7 @@ import './projects.css';
 function Projects() {
     const portfolio = [
         {
-            deployedLink: "",
+            deployedLink: "https://trendr-react.herokuapp.com/",
             title: "Trendr",
             src: trendrimg,
             className: "trendr",
