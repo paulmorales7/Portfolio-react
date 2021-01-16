@@ -22,11 +22,11 @@ function home() {
                         <p>JavaScript | HTML/CSS | React | NodeJs | MongoDb | MySql | Express</p>
 
                         <div className="social-links">
-                            <a href="https://github.com/paulmorales7" target="_blank">
+                            <a href="https://github.com/paulmorales7" target="_blank" rel="noreferrer">
                                 <div className="github"> <FaGithub /></div>
                             </a>
-                            <a href="https://www.linkedin.com/in/paul-morales-9a9571189/" target="_blank">
-                               <div className="linkedin"> <FaLinkedin /></div>
+                            <a href="https://www.linkedin.com/in/paul-morales-9a9571189/" target="_blank" rel="noreferrer">
+                                <div className="linkedin"> <FaLinkedin /></div>
                             </a>
                         </div>
                     </div>
